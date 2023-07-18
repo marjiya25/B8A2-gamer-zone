@@ -1,0 +1,36 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.gamercolor{
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamercolor ..gcolor{
+    color:#FF42A5;
+}
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.gamer{
+    display: flex;
+}
+.icon{
+    width: 86px;
+    height: 40px;
+    margin-top: 12px;
+}
