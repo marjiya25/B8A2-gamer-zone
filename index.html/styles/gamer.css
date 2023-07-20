@@ -1,4 +1,4 @@
-body{
+*{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
@@ -12,7 +12,7 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.gamercolor ..gcolor{
+#g-color{
     color:#FF42A5;
 }
 nav > ul{
@@ -29,15 +29,60 @@ nav a{
 .gamer{
     display: flex;
 }
-.icon{
-    width: 86px;
-    height: 40px;
-    margin-top: 12px;
-}
 #myInput{
     padding-bottom: 10px;
-    
-} 
-.img-contain{
-   
+}
+.banner{
+    display: flex;
+    text-align: left;
+}
+.banner-info{
+    align-items: flex-start;
+}
+.icon-1{
+    display: flex;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+}
+.p-1{
+    color: #0B0223;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.p-2{
+    text-align: left;
+    font-size: 95px;
+    font-weight: 800;
+    color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border-color: white;
+}
+.btn-primary-2{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7; 
+    border-color: white
+}
+.button{
+    display: flex;
+}
+.second-benner{
+    display: flex;
+    justify-content: space-between;
 }
