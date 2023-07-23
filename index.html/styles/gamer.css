@@ -32,12 +32,20 @@ nav a{
 #myInput{
     padding-bottom: 10px;
 }
+.place-icon{
+    position: relative;
+    right: 40px;
+    top: 5px;
+    display: flex;
+}
 .banner{
     display: flex;
     text-align: left;
 }
 .banner-info{
     align-items: flex-start;
+    position: relative;
+    right: 900px;
 }
 .icon-1{
     display: flex;
@@ -85,4 +93,227 @@ nav a{
 .second-benner{
     display: flex;
     justify-content: space-between;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+}
+.image{
+    padding-right: 80px;
+    padding-left: 240px;
+}
+.info-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info-pera{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.btn-primary-3{
+    text-align: right;
+    border-radius: 48px;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-color: white;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    position: relative;
+    margin-left: 700px;
+}
+.h-info{
+    position: relative;
+    margin-left: 250px;
+    text-align: right;
+}
+.span-info{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.section-head{
+    text-align: center;
+    margin-top: 20px;
+}
+h2 .funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-img-container{
+   display: flex;
+   justify-content: space-evenly;
+}
+h2 .section-info{
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+.features{
+    margin-top: 125px;
+    display:flex;
+    gap: 300px;
+}
+.play-games{
+    margin-left: 450px; 
+}
+h3 .play{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.games-title{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.features-info{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.games-image .tomy{
+    width: 318.5px;
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+}
+.features-2{
+    margin-top: 125px;
+    display:flex;
+    gap: 200px;
+}
+.play-games-2{
+    margin-left: 450px; 
+}
+h3 .play-2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+.games-title-2{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.features-info-2{
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.games-image-2 .tomy-2{
+    width: 318.5px;
+    position: relative;
+    bottom: 260px;
+    left: 800px;
+}
+.anime{
+    margin-left: 250px;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    height: 850px;
+}
+.group-info{
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+}
+.btn-primary-4{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FFF;
+    border: white solid;
+}
+.column-1{
+    display: flex;
+    gap: 20px;
+}
+.column-1 .column-2{
+    text-align: right;
+}
+.icon-container div{
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.icon-cont-2{
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.icon-cont-3{
+    margin-top: 50px;
+    margin-left: 560px;
+}
+footer{
+    background: #0B0223;
+    margin-top: 120px;
+    height: 630px;
+    width: 100%;
+    color: #FFF;
+}
+.footer-head{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+} 
+.footer-info{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+} 
+.footer-icon{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+} 
+.footer-condition{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+footer div{
+    position: relative;
+    top: 120px;
+    justify-content: center;
+}
+.footer-copyright{
+    position: relative;
+    left: 1845px;
+    justify-content: center;
+}
+.gamercolor-2 #g-color-3{
+    color: white;
+}
+#g-color-2{
+    color:#FF42A5;
 }
